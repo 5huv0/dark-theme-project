@@ -15,43 +15,51 @@ function App() {
     if(dark === 'light'){
       setDark('dark');
       document.body.style.backgroundColor = 'black';
+      document.body.style.color = 'white';
     }
     else{
       setDark('light');
       document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
     }
   } // This is for Dark mode
 
   const showGreen =()=> {
     if(green === 'light'){
-      setDark('green');
+      setGreen('green');
       document.body.style.backgroundColor = 'green';
+      document.body.style.color = 'white';
     }
     else{
-      setDark('light');
+      setGreen('light');
       document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
     }
   } // This is for Green mode
 
   const showBlue =()=> {
     if(blue === 'light'){
-      setDark('blue');
+      setBlue('blue');
       document.body.style.backgroundColor = 'blue';
+      document.body.style.color = 'white';
     }
     else{
-      setDark('light');
+      setBlue('light');
       document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
     }
   } // This is for Blue mode
 
   const showGrey =()=> {
     if(grey === 'light'){
-      setDark('grey');
+      setGrey('grey');
       document.body.style.backgroundColor = 'grey';
+      document.body.style.color = 'white';
     }
     else{
-      setDark('light');
+      setGrey('light');
       document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
     }
   } // This is for Grey mode
 
